@@ -18,19 +18,19 @@ function userValidator() {
         
     }
 
-function userValidatorCard() {
-    let card;
-    do{
-        card = prompt("Por favor ingrese los 16 numeros de su tarjeta");
-        if (card.length == 16 && !isNaN(card)){ 
-            alert("Tarjeta ingresada correctamente");
-        // alert("Tarjeta ingresada correctamente:", card);
-    }else {
-        alert("Debe ingresar los 16 digitos");
-    }
-} while (card.length !== 16);
-console.log("tarjeta correcta");
+// function userValidatorCard() {
+//     let card;
+//     do{
+//         card = prompt("Por favor ingrese los 16 numeros de su tarjeta");
+//         if (card.length == 16 && !isNaN(card)){ 
+//             alert("Tarjeta ingresada correctamente");
+//         // alert("Tarjeta ingresada correctamente:", card);
+//     }else {
+//         alert("Debe ingresar los 16 digitos");
+//     }
+// } while (card.length !== 16);
+// console.log("tarjeta correcta");
 
-}
+// }
 userValidator(); 
-userValidatorCard();
+//userValidatorCard();
