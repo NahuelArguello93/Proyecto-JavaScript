@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nini Mayorista</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header class="app-header">
+        <!-- <img src="./img/header.jpg" alt="Encabezado" class="app-header-img"> -->
+        <nav>
+            <ul class="nav-list">
+                <li><a href="./app.html">Inicio</a></li>
+                <li><a href="./contactanos.html">Contáctanos</a></li>
+                <li><a href="./quienes-somos.html">¿Quiénes Somos?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="titulo principal">Ofertas del Día</h2>
+        <div class="contenedor-ofertas" id="productos"></div>
+    </main>
+    <button class="carrito-flotante" id="carritoBoton">🛒 <span id="cartCount">0</span></button>
+    <div class="carrito-popup hidden" id="carritoPopup">
+        <h3>Tu carrito</h3>
+        <div id="carritoItems"></div>
+        <p>Total: <span id="total">0</span>€</p>
+        <button id="finalizarCompra">Finalizar Compra</button>
+        <button id="cerrarCarrito">Cerrar</button>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
+
